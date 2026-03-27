@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support — Kombat X</title>
+  <meta name="description" content="Get help with the Kombat X ballistic calculator app.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
+</head>
+<body>
+
+<!-- Nav -->
+<nav class="nav">
+  <div class="container">
+    <a href="index.html" class="nav-brand">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="32" height="32">
+        <defs>
+          <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#1a0a00"/>
+            <stop offset="50%" stop-color="#0d0d0d"/>
+            <stop offset="100%" stop-color="#0a0015"/>
+          </linearGradient>
+          <linearGradient id="traj" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#ff3300" stop-opacity="0"/>
+            <stop offset="20%" stop-color="#ff4400" stop-opacity=".5"/>
+            <stop offset="60%" stop-color="#ff8800" stop-opacity=".9"/>
+            <stop offset="100%" stop-color="#ffdd00"/>
+          </linearGradient>
+        </defs>
+        <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+        <g opacity=".08" stroke="#ff4400" stroke-width="80" stroke-linecap="round">
+          <line x1="80" y1="70" x2="432" y2="422"/>
+          <line x1="432" y1="70" x2="80" y2="422"/>
+        </g>
+        <circle cx="256" cy="246" r="140" fill="none" stroke="#ff5500" stroke-width="4" opacity=".6"/>
+        <g stroke="#fff" stroke-linecap="round" stroke-width="3.5" opacity=".9">
+          <line x1="256" y1="100" x2="256" y2="210"/>
+          <line x1="256" y1="282" x2="256" y2="392"/>
+          <line x1="110" y1="246" x2="220" y2="246"/>
+          <line x1="292" y1="246" x2="402" y2="246"/>
+        </g>
+        <circle cx="256" cy="246" r="6" fill="#ff8800" opacity=".95"/>
+        <circle cx="256" cy="246" r="3" fill="#ffee00"/>
+        <path d="M50,290 C130,90 265,80 340,210 S445,410 480,465" fill="none" stroke="url(#traj)" stroke-width="7" stroke-linecap="round"/>
+      </svg>
+      Kombat X
+    </a>
+    <div class="nav-links">
+      <a href="index.html#features">Features</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Support -->
+<section class="legal container">
+  <h1>Support</h1>
+  <p class="updated">We're here to help you get the most out of Kombat X.</p>
+
+  <div class="support-card">
+    <h2>Contact Us</h2>
+    <p>For bug reports, feature requests, or any questions about the app, please email us at:</p>
+    <p style="margin-top: 12px;"><a href="mailto:support@kombatx.app" style="font-size: 1.1rem; font-weight: 600;">support@kombatx.app</a></p>
+  </div>
+
+  <div class="support-card">
+    <h2>Frequently Asked Questions</h2>
+
+    <h2 style="margin-top: 20px; font-size: .95rem;">What drag models are supported?</h2>
+    <p>Kombat X supports both G1 and G7 drag models, the industry-standard models used by professional ballistic calculators.</p>
+
+    <h2 style="margin-top: 20px; font-size: .95rem;">How does weather integration work?</h2>
+    <p>The app uses Apple WeatherKit to fetch local temperature, pressure, and humidity based on your current location. You can also enter atmospheric conditions manually.</p>
+
+    <h2 style="margin-top: 20px; font-size: .95rem;">What units are supported?</h2>
+    <p>Full metric and imperial support. Distances in meters or yards, velocities in m/s or ft/s, mass in grams or grains, and scope adjustments in MOA or MRAD.</p>
+
+    <h2 style="margin-top: 20px; font-size: .95rem;">Is my data stored on a server?</h2>
+    <p>No. All your data — rifles, ammunition, calculations, and settings — is stored locally on your device. Nothing is sent to any server. See our <a href="privacy.html">Privacy Policy</a> for details.</p>
+
+    <h2 style="margin-top: 20px; font-size: .95rem;">Does the app work offline?</h2>
+    <p>Yes. All ballistic calculations work fully offline. The only feature requiring internet is automatic weather fetching — you can always enter atmospheric data manually.</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="support.html">Support</a>
+    </div>
+    <p>&copy; 2025 Kombat X. All rights reserved.</p>
+    <p style="margin-top: 6px;">Made with help of <a href="https://claude.ai/code" style="color: var(--text-muted);">Claude Code</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
