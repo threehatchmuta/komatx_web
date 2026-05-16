@@ -13,16 +13,16 @@ OM_150m_2.jpeg | Muj nejhorsi terc jako vzdy, stejne veliky jako lezici figura a
 OM_200m_1.jpeg | Velky puskovy, narozdil od treninku vsechno spatne
 
 # ── S — Standard Rifle ─────────────────────────────────────────
-@S: Bez podpěry a podstavce, optika max. 4× zoom.
-S_100m_1.JPG |
-S_100m_2.JPG |
-S_150m_1.JPG |
-S_150m_2.JPG |
-S_200m_1.JPG |
-S_200m_2.JPG |
+@S: Bez podpěry a podstavce, optika max. 4× zoom. Poprvé jsem střílel 4x. Střílelo se mi dobře, s oporou o pěst. Ale výsledky hrozné.
+S_100m_1.JPG | Nezvládl jsem studenou ránu, nechápu
+S_100m_2.JPG | Na tohle by to chtělo pozorovák, konzistentně jsem tak 2 kliky pod
+S_150m_1.JPG | Billiard, taky 2 kliky pod :/
+S_150m_2.JPG | Srdce, aspoň je jeden bullseye
+S_200m_1.JPG | Bandita tragédie, černý stře jsem viděl perfektně na 4x, ale zásahy 20cm pod
+S_200m_2.JPG | Vyjma jedné desítky je všechno 30cm doprava
 
 # ── L — Any Rifle ──────────────────────────────────────────────
-@L: Libovolná puška, bez omezení. Korekce 2 na 150 a 7 na 200m.
+@L: Libovolná puška, bez omezení. Korekce 2 na 150 a 7 na 200m. Nestihl jsem celého pavouka a terče na 100. Byl jsem ve ve stresu.
 L_100m_1.jpg | Stříleno poslední, nestihl jsem
 L_150m_1.jpg | Studená rána (-4 kliky dle pátečního tréninku)
 L_150m_2.jpg | Asi nejvíc ok terče
