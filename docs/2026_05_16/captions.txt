@@ -1,0 +1,31 @@
+# Captions for Poříčanský odstřelovač 2026-05-16
+# Format:
+#   @<DIV>: <category description>           — text shown under the division heading
+#   <image filename> | <caption text>        — text shown under each image
+# Leave empty to skip.
+
+# ── OM — Open Sights ───────────────────────────────────────────
+@OM: Otevřená mířidla.
+OM_100m_1.jpeg | Studena rana, sice nebyla 10, ale i tak maximalni pocet body
+OM_100m_2.jpeg | Pistolak hrozny, rekl bych ze to vpravo jsou strelecke chyby
+OM_150m_1.jpeg | Dobre naklikano, ale zase mi to jede horizontalne doprava
+OM_150m_2.jpeg | Muj nejhorsi terc jako vzdy, stejne veliky jako lezici figura ale lita to jinam
+OM_200m_1.jpeg | Velky puskovy, narozdil od treninku vsechno spatne
+
+# ── S — Standard Rifle ─────────────────────────────────────────
+@S: Bez podpěry a podstavce, optika max. 4× zoom.
+S_100m_1.JPG |
+S_100m_2.JPG |
+S_150m_1.JPG |
+S_150m_2.JPG |
+S_200m_1.JPG |
+S_200m_2.JPG |
+
+# ── L — Any Rifle ──────────────────────────────────────────────
+@L: Libovolná puška, bez omezení.
+L_100m_1.jpg |
+L_150m_1.jpg |
+L_150m_2.jpg |
+L_200m_1.jpg |
+L_200m_2.jpg |
+L_200m_3.jpg |
