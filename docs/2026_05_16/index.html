@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Poříčanský odstřelovač — 16. 5. 2026</title>
+  <meta name="description" content="Terče ze závodu Poříčanský odstřelovač 2026 — divize OM, S a L na 100, 150 a 200 m.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
+  <style>
+    .comp-hero {
+      padding: 80px 0 40px;
+      text-align: center;
+    }
+    .comp-hero h1 {
+      font-size: 2.4rem; font-weight: 800; letter-spacing: -.5px;
+      margin-bottom: 12px;
+    }
+    .comp-hero h1 span { color: var(--accent); }
+    .comp-hero .meta {
+      color: var(--text-muted); font-size: 1rem;
+      margin-bottom: 24px;
+    }
+    .comp-hero .links a {
+      display: inline-block;
+      margin: 0 8px;
+      padding: 8px 16px;
+      border: 1px solid var(--accent-dim);
+      border-radius: 8px;
+      font-size: .9rem;
+      color: var(--accent);
+    }
+    .comp-hero .links a:hover {
+      background: var(--accent-dim);
+      text-decoration: none;
+    }
+
+    .division {
+      padding: 40px 0 20px;
+      border-top: 1px solid #ffffff08;
+    }
+    .division:first-of-type { border-top: none; }
+    .division h2 {
+      font-size: 1.5rem; font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .division h2 span { color: var(--accent); }
+    .division .description {
+      color: var(--text-muted); font-size: .92rem;
+      margin-bottom: 28px;
+    }
+
+    .targets-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .distance-col {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .distance-col h3 {
+      font-size: .95rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      text-align: center;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #ffffff10;
+    }
+    .target {
+      background: var(--bg-card);
+      border: 1px solid #ffffff0a;
+      border-radius: var(--radius);
+      overflow: hidden;
+      transition: border-color .2s, transform .2s;
+    }
+    .target:hover {
+      border-color: var(--accent-dim);
+      transform: translateY(-2px);
+    }
+    .target a {
+      display: block;
+    }
+    .target img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .target .caption {
+      padding: 8px 12px;
+      font-size: .8rem;
+      color: var(--text-muted);
+      text-align: center;
+      border-top: 1px solid #ffffff08;
+    }
+
+    @media (max-width: 720px) {
+      .comp-hero { padding: 48px 0 24px; }
+      .comp-hero h1 { font-size: 1.8rem; }
+      .targets-grid { gap: 12px; }
+      .distance-col { gap: 12px; }
+      .distance-col h3 { font-size: .8rem; }
+      .target .caption { font-size: .72rem; padding: 6px 8px; }
+      .division h2 { font-size: 1.2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Nav -->
+<nav class="nav">
+  <div class="container">
+    <a href="../index.html" class="nav-brand">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="32" height="32">
+        <defs>
+          <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#1a0a00"/>
+            <stop offset="50%" stop-color="#0d0d0d"/>
+            <stop offset="100%" stop-color="#0a0015"/>
+          </linearGradient>
+        </defs>
+        <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+        <g opacity=".08" stroke="#ff4400" stroke-width="80" stroke-linecap="round">
+          <line x1="80" y1="70" x2="432" y2="422"/>
+          <line x1="432" y1="70" x2="80" y2="422"/>
+        </g>
+        <circle cx="256" cy="246" r="140" fill="none" stroke="#ff5500" stroke-width="4" opacity=".6"/>
+        <g stroke="#fff" stroke-linecap="round" stroke-width="3.5" opacity=".9">
+          <line x1="256" y1="100" x2="256" y2="210"/>
+          <line x1="256" y1="282" x2="256" y2="392"/>
+          <line x1="110" y1="246" x2="220" y2="246"/>
+          <line x1="292" y1="246" x2="402" y2="246"/>
+        </g>
+        <circle cx="256" cy="246" r="6" fill="#ff8800" opacity=".95"/>
+        <circle cx="256" cy="246" r="3" fill="#ffee00"/>
+      </svg>
+      Kombat X
+    </a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../support.html">Support</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Header -->
+<section class="comp-hero">
+  <div class="container">
+    <h1>Poříčanský <span>odstřelovač</span></h1>
+    <p class="meta">16. 5. 2026 — terče dle divize a vzdálenosti</p>
+    <div class="links">
+      <a href="20260516_popis.pdf" target="_blank" rel="noopener">📄 Propozice (PDF)</a>
+    </div>
+  </div>
+</section>
+
+<!-- Divisions -->
+<main class="container">
+
+  <section class="division">
+    <h2><span>OM</span> — Open Sights</h2>
+    <p class="description">Otevřená mířidla.</p>
+    <div class="targets-grid">
+      <div class="distance-col">
+        <h3>100 m</h3>
+        <div class="target">
+          <a href="OM_100m_1.jpeg" target="_blank" rel="noopener">
+            <img src="OM_100m_1.jpeg" alt="OM 100 m — terč 1" loading="lazy">
+          </a>
+          <div class="caption">Terč 1</div>
+        </div>
+        <div class="target">
+          <a href="OM_100m_2.jpeg" target="_blank" rel="noopener">
+            <img src="OM_100m_2.jpeg" alt="OM 100 m — terč 2" loading="lazy">
+          </a>
+          <div class="caption">Terč 2</div>
+        </div>
+      </div>
+      <div class="distance-col">
+        <h3>150 m</h3>
+        <div class="target">
+          <a href="OM_150m_1.jpeg" target="_blank" rel="noopener">
+            <img src="OM_150m_1.jpeg" alt="OM 150 m — terč 1" loading="lazy">
+          </a>
+          <div class="caption">Terč 1</div>
+        </div>
+        <div class="target">
+          <a href="OM_150m_2.jpeg" target="_blank" rel="noopener">
+            <img src="OM_150m_2.jpeg" alt="OM 150 m — terč 2" loading="lazy">
+          </a>
+          <div class="caption">Terč 2</div>
+        </div>
+      </div>
+      <div class="distance-col">
+        <h3>200 m</h3>
+        <div class="target">
+          <a href="OM_200m_1.jpeg" target="_blank" rel="noopener">
+            <img src="OM_200m_1.jpeg" alt="OM 200 m — terč 1" loading="lazy">
+          </a>
+          <div class="caption">Terč 1</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="division">
+    <h2><span>S</span> — Standard Rifle</h2>
+    <p class="description">Bez podpěry a podstavce, optika max. 4× zoom.</p>
+    <div class="targets-grid">
+      <div class="distance-col">
+        <h3>100 m</h3>
+        <div class="target">
+          <a href="S_100m_1.JPG" target="_blank" rel="noopener">
+            <img src="S_100m_1.JPG" alt="S 100 m — terč 1" loading="lazy">
+          </a>
+          <div class="caption">Terč 1</div>
+        </div>
+        <div class="target">
+          <a href="S_100m_2.JPG" target="_blank" rel="noopener">
+            <img src="S_100m_2.JPG" alt="S 100 m — terč 2" loading="lazy">
+          </a>
+          <div class="caption">Terč 2</div>
+        </div>
+      </div>
+      <div class="distance-col">
+        <h3>150 m</h3>
+        <div class="target">
+          <a href="S_150m_1.JPG" target="_blank" rel="noopener">
+            <img src="S_150m_1.JPG" alt="S 150 m — terč 1" loading="lazy">
+          </a>
+          <div class="caption">Terč 1</div>
+        </div>
+        <div class="target">
+          <a href="S_150m_2.JPG" target="_blank" rel="noopener">
+            <img src="S_150m_2.JPG" alt="S 150 m — terč 2" loading="lazy">
+          </a>
+          <div class="caption">Terč 2</div>
+        </div>
+      </div>
+      <div class="distance-col">
+        <h3>200 m</h3>
+        <div class="target">
+          <a href="S_200m_1.JPG" target="_blank" rel="noopener">
+            <img src="S_200m_1.JPG" alt="S 200 m — terč 1" loading="lazy">
+          </a>
+          <div class="caption">Terč 1</div>
+        </div>
+        <div class="target">
+          <a href="S_200m_2.JPG" target="_blank" rel="noopener">
+            <img src="S_200m_2.JPG" alt="S 200 m — terč 2" loading="lazy">
+          </a>
+          <div class="caption">Terč 2</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="division">
+    <h2><span>L</span> — Any Rifle</h2>
+    <p class="description">Libovolná puška, bez omezení.</p>
+    <div class="targets-grid">
+      <div class="distance-col">
+        <h3>100 m</h3>
+        <div class="target">
+          <a href="L_100m_1.jpg" target="_blank" rel="noopener">
+            <img src="L_100m_1.jpg" alt="L 100 m — terč 1" loading="lazy">
+          </a>
+          <div class="caption">Terč 1</div>
+        </div>
+      </div>
+      <div class="distance-col">
+        <h3>150 m</h3>
+        <div class="target">
+          <a href="L_150m_1.jpg" target="_blank" rel="noopener">
+            <img src="L_150m_1.jpg" alt="L 150 m — terč 1" loading="lazy">
+          </a>
+          <div class="caption">Terč 1</div>
+        </div>
+        <div class="target">
+          <a href="L_150m_2.jpg" target="_blank" rel="noopener">
+            <img src="L_150m_2.jpg" alt="L 150 m — terč 2" loading="lazy">
+          </a>
+          <div class="caption">Terč 2</div>
+        </div>
+      </div>
+      <div class="distance-col">
+        <h3>200 m</h3>
+        <div class="target">
+          <a href="L_200m_1.jpg" target="_blank" rel="noopener">
+            <img src="L_200m_1.jpg" alt="L 200 m — terč 1" loading="lazy">
+          </a>
+          <div class="caption">Terč 1</div>
+        </div>
+        <div class="target">
+          <a href="L_200m_2.jpg" target="_blank" rel="noopener">
+            <img src="L_200m_2.jpg" alt="L 200 m — terč 2" loading="lazy">
+          </a>
+          <div class="caption">Terč 2</div>
+        </div>
+        <div class="target">
+          <a href="L_200m_3.jpg" target="_blank" rel="noopener">
+            <img src="L_200m_3.jpg" alt="L 200 m — terč 3" loading="lazy">
+          </a>
+          <div class="caption">Terč 3</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer" style="margin-top: 60px;">
+  <div class="container">
+    <div class="footer-links">
+      <a href="../index.html">Kombat X</a>
+      <a href="../privacy.html">Privacy</a>
+      <a href="../support.html">Support</a>
+    </div>
+    <p>&copy; 2026 Kombat X. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
